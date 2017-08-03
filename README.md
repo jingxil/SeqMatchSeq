@@ -37,4 +37,4 @@ $ tensorboard --logdir=DIR
 
 ## Results
 
-Currently, I can only achieve ~72% correct rate on dev set (5~10 epochs). I suspect that the main reason is that I did not carefully process words so that only 37.56% vocabulary (train+dev+test) was covered by pre-trained vocab vectors. Also using a <UNK> token to represent all the unknown words instead of taking the average over surrounding words might be another reason.  Anyway I have modified the procedure of obtaining words and now 80.84% vocabulary is covered. I am re-training the model but it takes time.
+Currently, I can only achieve \~72% correct rate on dev set (5\~10 epochs). I suspect that the main reason is that I did not carefully process words so that only 37.56% vocabulary (train+dev+test) was covered by pre-trained vocab vectors. Also using a <UNK> token to represent all the unknown words instead of taking the average over surrounding words might be another reason.  Anyway I have modified the procedure of obtaining words and now 80.84% vocabulary is covered. I am re-training the model but it takes time.
